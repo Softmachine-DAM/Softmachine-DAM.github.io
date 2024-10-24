@@ -1,0 +1,15 @@
+@import "/Styles/Estilos.css";
+main{
+    background-color: white;
+}
+
+.Libros img{
+    width: 60%;
+}
+.Libros div{
+    width: 25%;
+    border: 5px solid black;
+    padding: 2%;
+    margin: 2%;
+    float: left;
+}

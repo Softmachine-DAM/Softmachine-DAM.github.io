@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+    border-width: thick;
+    border-style: solid;
+    border-color: white;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    position:sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 90px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+main{
+    flex: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 25px;
+}
+
+nav a:hover{
+    color:red;
+}
+
+footer{
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: bisque;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding:5px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+    margin: 10px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #0a1a1a;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color:#0a1a1a;
+    margin-bottom: 10px;
+
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: 0d2033a1a1a;
+    margin-right: 10px;
+    background-color: bisque;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color:red;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a1a;
+    padding:15px 10px;
+    text-align: center;
+    color: #fff;
+
+
+}
+.pie-pagina .grupo-2 small{
+    font-size:15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
