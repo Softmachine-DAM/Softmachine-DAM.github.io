@@ -12,7 +12,7 @@ body{
     font-family: sans-serif;
     border-width: thick;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
     margin:0;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ main{
 
 a{
     text-decoration: none;
-    color:black
+    color:rgb(0, 0, 0)
 }
 
 nav a{
@@ -93,7 +93,7 @@ footer{
 }
 
 .pie-pagina .grupo-1 .box h2{
-    color: #0a1a1a;
+    color: #000000;
     margin-bottom: 25px;
     font-size: 20px;
 }
@@ -121,7 +121,7 @@ footer{
     color:red;
 }
 
-.pie-pagina .grupo-2{
+.pie-pagina #Derechos{
     background-color: #0a1a1a;
     padding:15px 10px;
     text-align: center;
@@ -129,7 +129,7 @@ footer{
 
 
 }
-.pie-pagina .grupo-2 small{
+.pie-pagina #Derechos small{
     font-size:15px;
 }
 @media screen and (max-width:800px){
@@ -142,7 +142,7 @@ footer{
 }
 .cajas div{
     width: 20%;
-    border: 5px solid black;
+    border: 5px bisque;
     padding: 2%;
     margin: 2%;
     float: left;
