@@ -1,36 +1,20 @@
-@import "/Styles/Estilos.css";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+@import "./Estilos.css";
 body {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(
-        50deg,
-        rgba(40,42,55,1) 50%,
-        rgba(40,42,55,0.7)),
-        url(Imagenes/fondo-biblioteca.avif);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    background-color:white
+       
 }
 
 .form-content{
-        padding:10px;
-        width:1000px;
-        border-radius: 25px;
+        padding:15px;
+        width:98%;
+        border-radius: 255px;
 }
 
 .form-content h2{
-    color: #F4F6F9;
+    color: #000000;
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 
 form{
@@ -38,20 +22,34 @@ form{
 }
 
 label{
-    font-size: 17px;
-    color: #F4F6F9;
-    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 100px;
 }
 
 input , textarea{
-    padding: 17px 14px;
+    padding: 20px 20px;
     border: 0;
     font-size: 15px;
-    color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255,228,196,0.315);
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 :focus{
-    outline:1px solid #1E92E9;
+    outline:1px solid rgb(0, 0, 0);
+}
+
+footer{
+    margin-top: 10%;
+}
+
+#checkit{
+    width: 27%;
+    float: right;
+}
+
+#subject{
+    width: 18%;
 }

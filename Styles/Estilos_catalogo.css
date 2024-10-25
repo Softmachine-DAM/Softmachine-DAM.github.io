@@ -1,13 +1,13 @@
-@import "/Styles/Estilos.css";
+@import "/Estilos.css";
 main{
     background-color: white;
 }
 
 .Libros img{
-    height: 5000;
     width: 60%;
 }
 .Libros div{
+    background-color: rgba(255, 228, 196, 0.315);
     width: 20%;
     border: 5px solid black;
     padding: 2%;

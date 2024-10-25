@@ -1,6 +1,7 @@
-@import "/Styles/Estilos.css";
+@import "Estilos.css";
 
 .Caja {
+    background-color: rgba(255, 228, 196, 0.315);
     width: 20%;
     border: 5px solid black;
     padding: 2%;
@@ -36,3 +37,4 @@
     font-weight: 600;
     padding-right: 10px;
 }
+

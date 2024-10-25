@@ -1,6 +1,6 @@
-@import "/Styles/Estilos.css";
+@import "/Estilos.css";
 
 #sign-in{
     text-align: center;
-    margin:auto;    
+    margin: auto;
 }

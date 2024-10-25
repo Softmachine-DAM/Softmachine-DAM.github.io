@@ -1,6 +1,6 @@
-@import "/Styles/Estilos.css";
+@import "/Estilos.css";
 
-img{
+#Foto_Dudas{
     float: right;
     width: 40%;
 }
