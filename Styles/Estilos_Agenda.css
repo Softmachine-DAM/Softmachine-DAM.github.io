@@ -28,3 +28,11 @@
 .agenda{
 text-align: center;
 }
+#Horarios, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 5%;
+    padding: 1%;
+    text-align: center;
+}
+
