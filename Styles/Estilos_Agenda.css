@@ -19,6 +19,7 @@
     margin-top: 20px;
     width: 200px;
 }
+
 .agenda .texto_agenda{
     padding: 20px;
     margin: 20px;
@@ -27,7 +28,12 @@
   
 .agenda{
 text-align: center;
+font-family: "Bona Nova SC", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
 }
+
 #Horarios, th, td{
     border: 1px solid black;
     border-collapse: collapse;
@@ -36,3 +42,20 @@ text-align: center;
     text-align: center;
 }
 
+#Horarios{
+    float: center;
+    width: 50%;
+}
+
+.Abierto{
+   background-color:  rgb(219, 245, 179);
+   
+}
+
+.Cerrado{
+    background-color:  rgb(255, 135, 135);
+}
+
+.Evento{
+    background-color:  rgb(177, 183, 244);
+}

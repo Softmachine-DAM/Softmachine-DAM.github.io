@@ -54,3 +54,11 @@ footer{
 #subject{
     width: 18%;
 }
+
+.Titulo_Contacto{
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}

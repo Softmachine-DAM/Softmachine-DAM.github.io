@@ -8,7 +8,10 @@
     <meta name="proyecto reto" content="WEB-RETO-1">
     <meta name="keywords" content="soporte,libros, biblioteca, Muskiz, lectura" >
     <title>Agenda</title>
-    <link rel="stylesheet" href="/Styles/Estilos_Agenda.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=/Styles/Estilos_Agenda.css>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="/Imagenes/LOGO_MUSKIZ.png">
 </head>
@@ -26,9 +29,9 @@
             <a href="/es/index.html" class="nav-link">Es</a>
         </nav>
     </header>
-    <h1 class="agenda">AGENDA</h1>
+    <h1 class="agenda"><B>AGENDA</B></h1>
     <main>
-        <section class="services">
+        <section id="services">
             <div class="service">
                 <h3 class="libro_name">Don Quijote De La Mancha </h3>
                 <img src="/Imagenes/Quijote de la mancha.jpg" alt="">
@@ -74,7 +77,7 @@
                 </p>
             </div>
         </section>
-        <section class="services">
+        <section id="services">
             <div class="service">
                 <h3 class="libro_name">La Celestina </h3>
                 <img src="/Imagenes/La_celestina.jpg" alt="">
@@ -122,6 +125,49 @@
         </section>
         <h3 class="texto_agenda">Atal honetan zure eskura dituzun azken ekitaldiak ikus ditzakezu, hala nola erakusketak, liburu sinaketak, filmak...</h3>
         <h4> EKITALDIAK OSTIRALETAN ARRATSALDEKO 18:00ETAN IZANGO DIRA</h4>
+        <h2>Egutegia</h2>
+        <table id="Horarios">
+            <tr>
+                <th colspan="8">Egutegia</th>
+            </tr>
+            <tr>
+                <td>Orduak</td>
+                <td>Astelehena</td>
+                <td>Asteartea</td>
+                <td>Asteazkena</td>
+                <td>Osteguna</td>
+                <td>Ostirala</td>
+                <td>Larunbata</td>
+                <td>Igandea</td>
+            </tr>
+            <tr>
+                <td>00:00-10:00</td>
+                <td class="Cerrado" colspan="5"><b>Itxita</b></td>
+                <td class="Cerrado" rowspan="6" colspan="2"><b>Itxita</b></td>
+            </tr>
+            <tr>
+                <td>10:00-13:00</td>
+                <td class="Abierto" colspan="5"><b>Irekita</b></td>
+            </tr>
+            <tr>
+                <td>13:00-16:00</td>
+                <td class="Cerrado" colspan="5" ><b>Itxita</b></td>
+
+            </tr>
+            <tr>
+                <td>16:00-18:00</td>
+                <td class="Abierto" colspan="5"><b>Irekita</b></td>
+            </tr>
+            <tr>
+                <td>18:00-19:45</td>
+                <td class="Abierto" colspan="4"><b>Irekita</b></td>
+                <td class="Evento"><b>Ekitaldia</b></td>
+            </tr>
+            <tr>
+                <td>19:45-00:00</td>
+                <td class="Cerrado" colspan="5"><b>Itxita</b></td>
+            </tr>
+        </table>
     </main>
     <footer class="pie-pagina">
         <div class="grupo-1">
