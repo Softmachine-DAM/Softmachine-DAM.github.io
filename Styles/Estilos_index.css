@@ -1,7 +1,7 @@
 @import "/Styles/Estilos.css";
 
 #Caja {
-    background-color: rgba(255, 228, 196, 0.315);
+    background-color: #ffe4c450;
     width: 20%;
     min-height: 50%;
     border: 5px solid black;
@@ -16,12 +16,12 @@
 }
 
 #Caja .nav-link:hover{
-        color:red;
+    color:#ff0000;
 }
 
 #Caja .titulo{
     text-decoration: none;
-    color:black;
+    color:#000000;
     font-weight: 600;
     padding-right: 25px;
 }

@@ -2,14 +2,13 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:white
-       
+    background-color:#ffffff
 }
 
 .form-content{
-        padding:15px;
-        width:98%;
-        border-radius: 255px;
+    padding:15px;
+    width:98%;
+    border-radius: 255px;
 }
 
 .form-content h2{
@@ -32,14 +31,14 @@ input , textarea{
     padding: 20px 20px;
     border: 0;
     font-size: 15px;
-    color: rgb(0, 0, 0);
-    background-color: rgba(255,228,196,0.315);
+    color: #000000;
+    background-color: #ffe4c450;
     margin-bottom: 20px;
     border-radius: 15px;
 }
 
 :focus{
-    outline:1px solid rgb(0, 0, 0);
+    outline:1px solid #000000;
 }
 
 footer{

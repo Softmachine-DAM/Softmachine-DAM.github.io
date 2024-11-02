@@ -1,14 +1,14 @@
 @import "/Styles/Estilos.css";
 
 main{
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .Libros img{
     width: 60%;
 }
 .Libros div{
-    background-color: rgba(255, 228, 196, 0.315);
+    background-color: #ffe4c450;
     width: 20%;
     border: 5px solid black;
     padding: 2%;
